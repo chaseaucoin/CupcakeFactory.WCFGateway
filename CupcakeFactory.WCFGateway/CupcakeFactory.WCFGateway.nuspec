@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<metadata>
+  <id>CupcakeFactory.WCFGateway</id>
+  <version>1.0.1</version>
+  <authors>Chase Q. Aucoin</authors>
+  <owners>Chase Q. Aucoin</owners>
+  <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+  <projectUrl>https://github.com/chaseaucoin/CupcakeFactory.WCFGateway</projectUrl>
+  <iconUrl>http://i.picresize.com/images/2016/03/13/2VqIY.png</iconUrl>
+  <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  <description>A simple proxy for Web API to WCF without having to write controllers.</description>
+  <tags>WCF</tags>
+</metadata>
+  <files>
+    <!-- Include everything in \build -->
+    <file src="bin\release\**" target="lib" />
+
+    <!-- Other files -->
+    <!-- ... -->
+  </files>
+</package>
